@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Face Detection</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e3c72, #2a5298);
+      overflow: hidden;
+      font-family: 'Arial', sans-serif;
+    }
+
+    video {
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    video:hover {
+      transform: scale(1.1);
+    }
+
+    canvas {
+      position: absolute;
+    }
+
+    @media (max-width: 768px) {
+      video {
+        width: 90%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <video id="video" width="720" height="560" autoplay muted></video>
+</body>
+</html>
