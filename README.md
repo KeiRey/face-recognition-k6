@@ -9,7 +9,9 @@
 Proyek ini bertujuan untuk membuat aplikasi web yang dapat mendeteksi ekspresi wajah secara realtime. Dengan menggunakan **face-api.js**, aplikasi ini dapat mendeteksi berbagai ekspresi wajah seperti senang, sedih, marah, terkejut, dan lain-lain melalui kamera perangkat pengguna. Aplikasi ini diharapkan dapat digunakan dalam berbagai skenario seperti penelitian, interaksi antarmuka, dan pengembangan teknologi berbasis AI.
 
 ## Demo
-Cobalah demo aplikasi ini di [tautan berikut](https://deteksi-ekspresi.vercel.app/).
+- Cobalah demo aplikasi ini di [tautan berikut](https://deteksi-ekspresi.vercel.app/).
+
+- Atau clone repo dari kelompok kami di [tautan berikut](https://github.com/KeiRey/face-recognition-k6.git).
 
 ## Cara Menggunakan
 1. Jalankan file HTML di browser favorit Anda.
